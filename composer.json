@@ -1,0 +1,23 @@
+{
+    "name": "flowpack/entity-usage",
+    "description": "Provides an entity usage registration for Neos Flow",
+    "license": "MIT",
+    "type": "neos-package",
+    "require": {
+        "neos/flow": "^6.2 || ^7.0 || dev-master",
+        "flowpack/entity-usage-storageimplementation": "^1.0 || dev-main"
+    },
+    "suggest": {
+        "flowpack/entity-usage-databasestorage": "Supports storing entity usages in the database"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flowpack\\EntityUsage\\": "Classes"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Flowpack.EntityUsage"
+        }
+    }
+}
