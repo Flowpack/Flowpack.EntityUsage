@@ -18,3 +18,8 @@ assets in Neos CMS.
         arguments:
             1:
                 value: 'my_service_id'
+                     
+## Related packages
+
+* [Flowpack.EntityUsage.DatabaseStorage](https://github.com/Flowpack/Flowpack.EntityUsage.DatabaseStorage) for storing usages in the database
+* [Flowpack.Neos.AssetUsage](https://github.com/Flowpack/Flowpack.Neos.AssetUsage) for storing Neos.Media asset usages in Neos CMS
